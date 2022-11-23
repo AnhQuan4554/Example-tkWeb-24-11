@@ -6,19 +6,18 @@
 body {
   padding: 100px;
 }
-.box1,
-.box2,
-.box3 {
-  height: 100px;
-}
+/* thằng nào cao hơn thì khi clear thằng đó mới được */
 .box1 {
   background: #f3f3cf;
   float: left;
+  height: 300px;
+  width: 300px;
 }
 .box2 {
   background: #e0e0fc;
-  clear: left;
+  height: 300px;
+  float: right;
 }
-.box3 {
-  background: #befcc9;
+p {
+  clear: right;
 }
