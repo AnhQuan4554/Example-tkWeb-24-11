@@ -6,18 +6,24 @@
 body {
   padding: 100px;
 }
-/* thằng nào cao hơn thì khi clear thằng đó mới được */
-.box1 {
-  background: #f3f3cf;
-  float: left;
-  height: 300px;
-  width: 300px;
+.wrap {
+  width: 100%;
+  background-color: rgb(30, 106, 173);
 }
-.box2 {
-  background: #e0e0fc;
-  height: 300px;
-  float: right;
+.cardItem {
+  width: calc(100% / 4);
+  float: left;
+  margin-left: 20px;
+}
+img {
+  width: 100%;
+}
+h2 {
+  color: red;
+  text-align: center;
 }
 p {
-  clear: right;
+  color: red;
+  font-size: 40px;
+  text-align: center;
 }
